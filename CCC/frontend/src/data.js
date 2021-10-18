@@ -6,6 +6,7 @@ const data = {
       category: 'skin care',
       image: '/images/p1.jpg',
       price: 60,
+      contentInStock: 10,
       brand: 'Drunk Elephant',
       rating: 5,
       numReviews: 10,
@@ -17,6 +18,7 @@ const data = {
       category: 'skin care',
       image: '/images/p2.jpg',
       price: 38,
+      contentInStock: 20,
       brand: 'Farmacy',
       rating: 5,
       numReviews: 10,
@@ -28,6 +30,7 @@ const data = {
       category: 'skin care',
       image: '/images/p3.jpg',
       price: 24,
+      contentInStock: 0,
       brand: 'Glossier',
       rating: 5,
       numReviews: 10,
@@ -39,6 +42,7 @@ const data = {
       category: 'skin care',
       image: '/images/p4.jpg',
       price: 34,
+      contentInStock: 15,
       brand: 'Ren',
       rating: 5,
       numReviews: 10,
@@ -47,4 +51,4 @@ const data = {
   ]
 }
 
-export default data; 
+export default data;

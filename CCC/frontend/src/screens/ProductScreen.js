@@ -14,7 +14,7 @@ export default function ProductScreen(props) {
       <Link to="/">Back to Result </Link>
      <div className="row top" >
        <div className="col-2">
-        <img className="large" src={Product.image} alt={Product.name}></img>
+        <img className="large" src={product.image} alt={Product.name}></img>
        </div>
        <div className="col-1">
         <ul>
@@ -46,7 +46,7 @@ export default function ProductScreen(props) {
                 <div className="row">
                   <div>Status</div>
                   <div>
-                    {product.countInStock>0? (
+                    {product.countInStock > 0 ? (
                     <span className="success">In Stock</span>
                     ) : (
                       <span className="error">Unavailable</span>
